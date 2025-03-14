@@ -37,6 +37,8 @@ public class App {
      * @param vetor Vetor com dados para teste.
      * @return Uma resposta que significa....
      */
+
+     //O(N/2) = O(N)
     static int codigo1(int[] vetor) {
         numOperacoes = 0;
         int resposta = 0;
@@ -47,6 +49,7 @@ public class App {
         return resposta;
     }
 
+    //O(N)
     /**
      * Código de teste 2. Este método...
      * @param vetor Vetor com dados para teste.
@@ -65,6 +68,7 @@ public class App {
         return contador;
     }
 
+   //O(N^2) 
     /**
      * Código de teste 3. Este método...
      * @param vetor Vetor com dados para teste.
@@ -85,6 +89,7 @@ public class App {
             vetor[menor] = temp;
         }
     }
+    //O(2^N)
 
     /**
      * Código de teste 4 (recursivo). Este método...
